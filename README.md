@@ -3,7 +3,7 @@ R script to :
 
 (1) Map gene names to each KEGG pathways. This code can help to have gene name in one column and KEGG pathway ID in another column (```gen2path```).
 
-(2) Map gene names to each KEGG modules (```gene2module```).
+(2) Map gene names to  KEGG modules (```gene2module```).
 
 Several intermediate datasets also will be generated during the procedure that might be of interest, like a dataset on modules, their definition, and pathways that they are involved in that module (```keggModule```).
 
