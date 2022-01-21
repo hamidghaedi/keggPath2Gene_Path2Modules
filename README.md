@@ -1,7 +1,11 @@
 # keggPath2Gene_Path2Modules
-R script to map gene name to each KEGG pathways and Modules. This code can help to have gene name in one column and KEGG pathway ID in another column (```gen2path```). 
-Another data set that generates is genes and their  KEGG modules (```gene2module```)
-Several intermediate dataset also will be generated during the procedure  that might be of interest, like a dataset on modules, their definition, and pathways involved in that module (```keggModule```).
+R script to :
+
+(1) Map gene names to each KEGG pathways. This code can help to have gene name in one column and KEGG pathway ID in another column (```gen2path```).
+
+(2) Map gene names to each KEGG modules (```gene2module```).
+
+Several intermediate datasets also will be generated during the procedure that might be of interest, like a dataset on modules, their definition, and pathways that they are involved in that module (```keggModule```).
 
 ```R
     library(org.Hs.eg.db)
